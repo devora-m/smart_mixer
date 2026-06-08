@@ -1,0 +1,34 @@
+# =====================================================
+#  Smart Mixer — .gitignore
+# =====================================================
+
+# ── סודות וקבצי הגדרות מקומיים ──────────────────────
+MixerScreen/MixerScreen/credentials.h   # WiFi + Server IP — לא לגיט לעולם
+server/.env                              # MONGO_URI, session secret, password hash
+
+# ── Node.js ──────────────────────────────────────────
+server/node_modules/
+server/package-lock.json
+
+# ── SQLite DB (נוצר בהרצה, לא שייך לקוד) ────────────
+server/*.db
+server/*.db-journal
+server/*.db-wal
+server/*.db-shm
+
+# ── Arduino / ESP32 build artifacts ──────────────────
+**/.pio/
+**/build/
+**/*.bin
+**/*.elf
+**/*.map
+
+# ── מערכת הפעלה ──────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── עורכים ───────────────────────────────────────────
+.vscode/settings.json
+*.suo
+*.user
