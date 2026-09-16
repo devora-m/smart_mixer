@@ -27,6 +27,7 @@ server/*.db-shm
 .DS_Store
 Thumbs.db
 desktop.ini
+kitchen-app/node_modules/
 
 # ── עורכים ───────────────────────────────────────────
 .vscode/settings.json

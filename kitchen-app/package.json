@@ -1,0 +1,20 @@
+{
+  "name": "safe-step-kitchen",
+  "version": "1.0.0",
+  "description": "צעד בטוח במטבח – מערכת ניהול מתכונים למיקסר חכם",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ]
+}
