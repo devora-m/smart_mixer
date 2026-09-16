@@ -28,6 +28,7 @@ server/*.db-shm
 Thumbs.db
 desktop.ini
 kitchen-app/node_modules/
+kitchen-app/package-lock.json
 
 # ── עורכים ───────────────────────────────────────────
 .vscode/settings.json
